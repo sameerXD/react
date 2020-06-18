@@ -12,28 +12,28 @@ export default function Products() {
     <div className="App ">
       <div>
         <Header />
-        <Poster heading="Products" src="url(/milk.jpg)" />
+        <Poster heading="Products" src="url(images/milk.jpg)" />
         <div class="body container">
           <div class="row">
             <Cards
-              src="/cow.jpg"
+              src="images/cowmilk.jpg"
               title="Cow Milk"
               description="Staying Healthy"
             />
 
             <Cards
-              src="/butter.jpg"
+              src="images/buffelomilk.jpg"
               title="Buffalo Milk"
               description="Only the Best"
             />
 
             <Cards
-              src="/cheese.jpg"
+              src="images/ghee.jpg"
               title="Ghee"
               description="Whatever You Need"
             />
             <Cards
-              src="/curd.jpg"
+              src="images/curd.jpg"
               title="Natural Yogurt"
               description="Staying Healthy"
             />

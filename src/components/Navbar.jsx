@@ -9,7 +9,7 @@ function Navbar(props) {
         class="navbar navbar-expand-lg navbar-dark"
         style={{ backgroundColor: "#386893" }}
       >
-        <Logo src="/LOGO2alt.png" width="60" height="60" alt="" />
+        <Logo src="images/logo.png" width="60" height="60" alt="" />
         <button
           class="navbar-toggler custom-toggler"
           type="button"

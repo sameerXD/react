@@ -14,7 +14,7 @@ function AboutUs() {
         <Header />
         <div class="aboutus">
           <div className="aboutPoster">
-            <Poster heading="Who We Are" src="url(/coffee.jpg)" />
+            <Poster heading="Who We Are" src="url(images/coffee.jpg)" />
           </div>
           <br />
           <div className="container" style={{ padding: "0px 0px 35px" }}>

@@ -5,7 +5,7 @@
 /* 
 backcground homepage*/
 .hf {
-  background-image: url("/LOGO2alt.png");
+  background-image: url("images/LOGO2alt.png");
 }
 
 .body {
@@ -41,7 +41,7 @@ a:hover {
 #borderimg2 {
   border: 30px solid;
   padding: 15px;
-  border-image: url(/texture.jpg) 20% round;
+  border-image: url(images/texture.jpg) 20% round;
 }
 
 /*products*/
@@ -148,8 +148,22 @@ a:hover {
   border-bottom: 2px solid black;
   padding: 4px;
   margin: 5px;
+  color: black;
   background: transparent;
   text-align: left;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 0.4; /* Firefox */
+  font-style: oblique;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
 }
 
 textarea {
